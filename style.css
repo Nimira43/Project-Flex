@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fredericka+the+Great&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --primary: #111111cc;
+  --secondary-l: #ff8c00cc;
+  --secondary-d: #ff4400cc;
+  --third-l: #008080cc;
+  --third-d: #015454cc;
+}
+
+body {
+  font-family: 'Teachers', sans-serif;
+  line-height: 1.8;
+  display: flex;
+}
+
+#side-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.sidenav-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--primary);
+}
+
+.sidenav-logo img {
+  width: calc(3vw + 3vh);
+  object-fit: cover;
+}
+
+.sidenav-social {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav-social a i {
+  font-size: calc(1rem + 0.66667vw);
+  color: var(--secondary-d);
+  padding-bottom: calc(2rem + 00.66667vw);
+}
+
+
+
